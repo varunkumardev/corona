@@ -1,0 +1,309 @@
+.title-section {
+  padding-bottom: 20%;
+  color: #fff;
+  background-color: #262C7C;
+}
+
+hr {
+  border-color: grey;
+}
+
+.content {
+  padding-bottom: 7%;
+}
+
+.vr1 {
+  font-size: 4rem;
+  color: #fff;
+}
+
+.vr2 {
+  font-size: 15rem;
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  opacity: 0.2;
+}
+
+.vr3 {
+  font-size: 10rem;
+  position: absolute;
+  top: 80%;
+  left: 3%;
+  opacity: 0.2;
+}
+
+.vr4 {
+  font-size: 4rem;
+  position: absolute;
+  top: 70%;
+  left: 45%;
+  opacity: 0.4;
+}
+
+.nav-item {
+  font-size: 1.3rem
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.active {
+  color: #f21170 !important;
+}
+
+.tDiv {
+  margin: 10% 0 0 10%;
+}
+
+.btn {
+  color: #fff;
+}
+
+.btn1 {
+  background-color: #f21170;
+}
+
+.btn2 {
+  border-color: white;
+  border-width: 3px;
+  border-radius: 7px;
+  margin-left: 10%;
+}
+
+.btn-block {
+  text-align: left;
+}
+
+.btn-block .fas {
+  float: right;
+}
+
+/* Varun Kumar */
+
+body {
+  background-color: #f2f3f7;
+}
+
+.space {
+  margin-top: 20px;
+}
+
+h1 {
+  color: #262c7c;
+  padding-top: 30px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.c1 {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 30px 0 30px 100PX;
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 28px rgba(228, 229, 247, 0.292259), 0px 4px 8px rgba(190, 193, 224, 0.320039);
+}
+
+.main {
+
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  /* line-height: 40px; */
+  text-align: center;
+  color: #262C7C;
+}
+
+.para {
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  /* line-height: 24px; */
+  text-align: center;
+  color: #6468A1;
+}
+
+.para1 {
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  color: #6468A1;
+}
+
+.rect {
+  margin-top: 30px;
+}
+
+.left {
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  /* line-height: 40px; */
+  text-align: left;
+  color: #262C7C;
+}
+
+.bg {
+  background-color: #ffffff;
+}
+
+.head {
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #262C7C;
+  margin-bottom: 30px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.center1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.c4 {
+  background-color: #ffffff;
+  padding: 0;
+  margin: 30px 0 30px 100PX;
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 28px rgba(228, 229, 247, 0.292259), 0px 4px 8px rgba(190, 193, 224, 0.320039);
+}
+
+.color {
+  background-color: #c6c6c6;
+  height: 150px;
+  margin-bottom: 15px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.sub {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.date {
+  float: left;
+  font-size: small;
+  color: #b4b5c3;
+}
+
+.read {
+  float: right;
+  color: #262C7C;
+}
+
+.read:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.text-center {
+  padding: 40px 0 50px 0;
+}
+
+.hori {
+  border-color: #e4e5f7;
+  margin-bottom: 25px;
+}
+
+.para2 {
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  color: #262c7c;
+  float: left;
+}
+
+.cir {
+  float: right;
+  color: #262C7C;
+}
+
+.btn3 {
+  border-color: #dadbe7;
+  color: #6468a1;
+  /* margin: 5px; */
+  border-radius: 5px;
+}
+
+.btn3:hover {
+  border-color: #262C7C;
+}
+
+.btn3.active {
+  outline-color: #262C7C;
+}
+
+.demo {
+  color: #6468A1;
+}
+
+/* Footer */
+
+footer {
+  color: #fff;
+  background-color: #262C7C;
+  padding-top: 1%;
+  line-height: 2;
+}
+
+h3 {
+  display: unset;
+}
+
+.logo {
+  margin-bottom: 5%;
+}
+
+.fsec {
+  padding: 0 5%;
+}
+
+.mdia {
+  text-align: center;
+}
+
+.footerIcons {
+  margin: 3% 4%;
+  padding: 3% 5%;
+  color: #EB0065;
+  border-style: solid;
+  border-radius: 50%;
+  border-color: #EB0065;
+}
+
+.youTube {
+  padding: 3% 4%;
+}
+
+.footer-cpyrgt {
+  padding: 1% 0 2%;
+}
