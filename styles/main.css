@@ -145,6 +145,13 @@ h1 {
   margin-top: 30px;
 }
 
+.c2 {
+  padding: 20px;
+  margin: 30px 0 30px 100PX;
+  width: 500px;
+  border-radius: 10px;
+}
+
 .left {
   font-family: Graphik;
   font-style: normal;
