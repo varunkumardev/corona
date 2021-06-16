@@ -1,7 +1,44 @@
+.box {
+  padding: 0px 20px 20px 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.raw {
+  padding: 50px 0 0 0;
+}
+.adjust {
+  height: 100px;
+  padding: 40px 20px 20px 20px;
+  float: left;
+}
+svg {
+  background-color: #ecedf2;
+  border-radius: 10px;
+  padding-top: 15px;
+  margin: 0 auto;
+}
+
+path {
+  fill: #f6f7f9;
+  fill-opacity: 1;
+  stroke: rgb(212, 207, 207);
+  stroke-opacity: 1;
+  stroke-width: 0.5;
+}
+
+path:hover {
+  fill: red;
+}
+.verti {
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-left: 10px;
+}
 .title-section {
   padding-bottom: 20%;
   color: #fff;
-  background-color: #262C7C;
+  background-color: #262c7c;
 }
 
 hr {
@@ -42,7 +79,7 @@ hr {
 }
 
 .nav-item {
-  font-size: 1.3rem
+  font-size: 1.3rem;
 }
 
 .nav-link {
@@ -104,21 +141,21 @@ h1 {
 .c1 {
   background-color: #ffffff;
   padding: 20px;
-  margin: 30px 0 30px 100PX;
+  margin: 30px 0 30px 100px;
   width: 500px;
   border-radius: 10px;
-  box-shadow: 0px 4px 28px rgba(228, 229, 247, 0.292259), 0px 4px 8px rgba(190, 193, 224, 0.320039);
+  box-shadow: 0px 4px 28px rgba(228, 229, 247, 0.292259),
+    0px 4px 8px rgba(190, 193, 224, 0.320039);
 }
 
 .main {
-
   font-family: Graphik;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
   /* line-height: 40px; */
   text-align: center;
-  color: #262C7C;
+  color: #262c7c;
 }
 
 .para {
@@ -128,7 +165,7 @@ h1 {
   font-size: 16px;
   /* line-height: 24px; */
   text-align: center;
-  color: #6468A1;
+  color: #6468a1;
 }
 
 .para1 {
@@ -138,7 +175,7 @@ h1 {
   font-size: 16px;
   line-height: 24px;
   text-align: left;
-  color: #6468A1;
+  color: #6468a1;
 }
 
 .rect {
@@ -147,7 +184,7 @@ h1 {
 
 .c2 {
   padding: 20px;
-  margin: 30px 0 30px 100PX;
+  margin: 30px 0 30px 100px;
   width: 500px;
   border-radius: 10px;
 }
@@ -159,7 +196,7 @@ h1 {
   font-size: 24px;
   /* line-height: 40px; */
   text-align: left;
-  color: #262C7C;
+  color: #262c7c;
 }
 
 .bg {
@@ -174,7 +211,7 @@ h1 {
   line-height: 48px;
   text-align: center;
   letter-spacing: 0.2px;
-  color: #262C7C;
+  color: #262c7c;
   margin-bottom: 30px;
 }
 
@@ -194,10 +231,11 @@ h1 {
 .c4 {
   background-color: #ffffff;
   padding: 0;
-  margin: 30px 0 30px 100PX;
+  margin: 30px 0 30px 100px;
   width: 500px;
   border-radius: 10px;
-  box-shadow: 0px 4px 28px rgba(228, 229, 247, 0.292259), 0px 4px 8px rgba(190, 193, 224, 0.320039);
+  box-shadow: 0px 4px 28px rgba(228, 229, 247, 0.292259),
+    0px 4px 8px rgba(190, 193, 224, 0.320039);
 }
 
 .color {
@@ -221,7 +259,7 @@ h1 {
 
 .read {
   float: right;
-  color: #262C7C;
+  color: #262c7c;
 }
 
 .read:hover {
@@ -251,7 +289,7 @@ h1 {
 
 .cir {
   float: right;
-  color: #262C7C;
+  color: #262c7c;
 }
 
 .btn3 {
@@ -262,22 +300,22 @@ h1 {
 }
 
 .btn3:hover {
-  border-color: #262C7C;
+  border-color: #262c7c;
 }
 
 .btn3.active {
-  outline-color: #262C7C;
+  outline-color: #262c7c;
 }
 
 .demo {
-  color: #6468A1;
+  color: #6468a1;
 }
 
 /* Footer */
 
 footer {
   color: #fff;
-  background-color: #262C7C;
+  background-color: #262c7c;
   padding-top: 1%;
   line-height: 2;
 }
@@ -301,10 +339,10 @@ h3 {
 .footerIcons {
   margin: 3% 4%;
   padding: 3% 5%;
-  color: #EB0065;
+  color: #eb0065;
   border-style: solid;
   border-radius: 50%;
-  border-color: #EB0065;
+  border-color: #eb0065;
 }
 
 .youTube {
