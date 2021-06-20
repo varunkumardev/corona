@@ -12,7 +12,7 @@
   padding: 40px 20px 20px 20px;
 }
 svg {
-  background-color: #ecedf2;
+  background-color: #262c7c;
   border-radius: 10px;
   padding-top: 15px;
   margin: 0 auto;
@@ -73,11 +73,11 @@ path:hover {
   height: 40px;
 }
 
-  .flag {
-    width: 30px;
-    padding: 5px 0 0 5px;
-    float: left;
-  }
+.flag {
+  width: 30px;
+  padding: 5px 0 0 5px;
+  float: left;
+}
 
 .title-section {
   padding-bottom: 20%;
