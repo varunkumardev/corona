@@ -35,7 +35,6 @@ path:hover {
   border-radius: 10px;
   margin-left: 10px;
 }
-
 .lock {
   border: 2px solid grey;
   height: 40px;
@@ -43,11 +42,22 @@ path:hover {
   border-radius: 5px;
 }
 
+.iconuser {
+  position: relative;
+}
+
+.iconuser i {
+  position: absolute;
+  right: 10px;
+  top: 35px;
+  color: grey;
+}
 .count {
   width: 100%;
   border: 2px solid grey;
   border-radius: 5px;
   height: 40px;
+  margin-top: 10px;
 }
 .global {
   float: left;
