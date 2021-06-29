@@ -25,9 +25,23 @@ $(document).ready(function () {
     });
 });
 
-
-// When the user clicks on <div>, open the popup
-function myFunction() {
-    var popup = document.getElementById("myPopup");
-    popup.classList.toggle("show");
-  }
+$(document).ready(function () {
+    $('.toggle1').click(function () {
+        $('.popup1').toggle("slow");
+    });
+    $('.toggle2').click(function () {
+        $('.popup2').toggle("slow");
+    });
+    $('.toggle3').click(function () {
+        $('.popup3').toggle("slow");
+    });
+    $('.toggle4').click(function () {
+        $('.popup4').toggle("slow");
+    });
+    $('.toggle5').click(function () {
+        $('.popup5').toggle("slow");
+    });
+    $('.toggle6').click(function () {
+        $('.popup6').toggle("slow");
+    });
+}); 
