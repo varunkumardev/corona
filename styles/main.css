@@ -88,15 +88,21 @@ path:hover {
 .count1 {
   width: 100%;
   margin-bottom: 10px;
-  /* border: 2px solid grey; */
   border-radius: 5px;
+  transition: height 1s;
   background-color: #f2f3f7;
   height: 40px;
+} 
+
+.count1:hover{
+  height: 150px;
+  background-image: linear-gradient(to top right, orange, white, green);
+
 }
 
 .popup1 {
-  height: 100px;
-  width: 100%;
+  height: auto;
+  width: auto;
   background-image: linear-gradient(to top right, orange, white, green);
   border-radius: 10px;
   display: none;
@@ -104,232 +110,555 @@ path:hover {
 }
 
 .popup2 {
-  height: 100px;
-  width: 100%;
-  background-image: linear-gradient(to top right, orange, white, green);
-  border-radius: 10px;
-  display: none;
-  margin-bottom: 10px;
-}
-.popup3 {
-  height: 100px;
-  width: 100%;
-  background-image: linear-gradient(to top right, orange, white, green);
-  border-radius: 10px;
-  display: none;
-  margin-bottom: 10px;
-}
-.popup4 {
-  height: 100px;
-  width: 100%;
-  background-image: linear-gradient(to top right, orange, white, green);
-  border-radius: 10px;
-  display: none;
-  margin-bottom: 10px;
-}
-.popup5 {
-  height: 100px;
-  width: 100%;
-  background-image: linear-gradient(to top right, orange, white, green);
-  border-radius: 10px;
-  display: none;
-  margin-bottom: 10px;
-}
-.popup6 {
-  height: 100px;
-  width: 100%;
-  background-image: linear-gradient(to top right, orange, white, green);
-  border-radius: 10px;
-  display: none;
-  margin-bottom: 10px;
-}
-.popup7 {
-  height: 100px;
-  width: 100%;
-  background-image: linear-gradient(to top right, orange, white, green);
-  border-radius: 10px;
-  display: none;
-  margin-bottom: 10px;
-}
-.popup8 {
-  height: 100px;
-  width: 100%;
-  background-image: linear-gradient(to top right, orange, white, green);
-  border-radius: 10px;
-  display: none;
-  margin-bottom: 10px;
-}
-.popup9 {
-  height: 100px;
-  width: 100%;
-  background-image: linear-gradient(to top right, orange, white, green);
-  border-radius: 10px;
-  display: none;
-  margin-bottom: 10px;
-}
-.popup10 {
-  height: 100px;
-  width: 100%;
-  background-image: linear-gradient(to top right, orange, white, green);
-  border-radius: 10px;
-  display: none;
-  margin-bottom: 10px;
-}
-.popup11 {
-  height: 100px;
-  width: 100%;
-  background-image: linear-gradient(to top right, orange, white, green);
-  border-radius: 10px;
-  display: none;
-  margin-bottom: 10px;
-}
-.popup12{
-  height: 100px;
-  width: 100%;
-  background-image: linear-gradient(to top right, orange, white, green);
-  border-radius: 10px;
-  display: none;
-  margin-bottom: 10px;
-}
-.popup13{
-  height: 100px;
-  width: 100%;
-  background-image: linear-gradient(to top right, orange, white, green);
-  border-radius: 10px;
-  display: none;
-  margin-bottom: 10px;
-}
-.popup14{
-  height: 100px;
-  width: 100%;
-  background-image: linear-gradient(to top right, orange, white, green);
-  border-radius: 10px;
-  display: none;
-  margin-bottom: 10px;
-}
-.popup15{
-  height: 100px;
-  width: 100%;
-  background-image: linear-gradient(to top right, orange, white, green);
-  border-radius: 10px;
-  display: none;
-  margin-bottom: 10px;
-}
-.popup16{
-  height: 100px;
-  width: 100%;
-  background-image: linear-gradient(to top right, orange, white, green);
-  border-radius: 10px;
-  display: none;
-  margin-bottom: 10px;
-}
-.popup17{
-  height: 100px;
-  width: 100%;
-  background-image: linear-gradient(to top right, orange, white, green);
-  border-radius: 10px;
-  display: none;
-  margin-bottom: 10px;
-}
-.popup18{
-  height: 100px;
-  width: 100%;
-  background-image: linear-gradient(to top right, orange, white, green);
-  border-radius: 10px;
-  display: none;
-  margin-bottom: 10px;
-}
-.popup19{
-  height: 100px;
-  width: 100%;
-  background-image: linear-gradient(to top right, orange, white, green);
-  border-radius: 10px;
-  display: none;
-  margin-bottom: 10px;
-}
-.popup20{
-  height: 100px;
-  width: 100%;
-  background-image: linear-gradient(to top right, orange, white, green);
-  border-radius: 10px;
-  display: none;
-  margin-bottom: 10px;
-}
-.popup21{
-  height: 100px;
-  width: 100%;
-  background-image: linear-gradient(to top right, orange, white, green);
-  border-radius: 10px;
-  display: none;
-  margin-bottom: 10px;
-}
-.popup22{
-  height: 100px;
-  width: 100%;
-  background-image: linear-gradient(to top right, orange, white, green);
-  border-radius: 10px;
-  display: none;
-  margin-bottom: 10px;
-}
-.popup23{
-  height: 100px;
-  width: 100%;
-  background-image: linear-gradient(to top right, orange, white, green);
-  border-radius: 10px;
-  display: none;
-  margin-bottom: 10px;
-}
-.popup24{
-  height: 100px;
-  width: 100%;
-  background-image: linear-gradient(to top right, orange, white, green);
-  border-radius: 10px;
-  display: none;
-  margin-bottom: 10px;
-}
-.popup25{
-  height: 100px;
-  width: 100%;
-  background-image: linear-gradient(to top right, orange, white, green);
-  border-radius: 10px;
-  display: none;
-  margin-bottom: 10px;
-}
-.popup26{
-  height: 100px;
-  width: 100%;
-  background-image: linear-gradient(to top right, orange, white, green);
-  border-radius: 10px;
-  display: none;
-  margin-bottom: 10px;
-}
-.popup27{
-  height: 100px;
-  width: 100%;
-  background-image: linear-gradient(to top right, orange, white, green);
-  border-radius: 10px;
-  display: none;
-  margin-bottom: 10px;
-}
-.popup28{
-  height: 100px;
-  width: 100%;
-  background-image: linear-gradient(to top right, orange, white, green);
-  border-radius: 10px;
-  display: none;
-  margin-bottom: 10px;
-}
-.popup29{
-  height: 100px;
-  width: 100%;
+  height: auto;
+  width: auto;
   background-image: linear-gradient(to top right, orange, white, green);
   border-radius: 10px;
   display: none;
   margin-bottom: 10px;
 }
 
-/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup3 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+.popup4 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+.popup5 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+.popup6 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup7 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
 .popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+.popup1 {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to top right, orange, white, green);
+  border-radius: 10px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+
+
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+#popup1 {
   visibility: visible;
   -webkit-animation: fadeIn 1s;
   animation: fadeIn 1s;
