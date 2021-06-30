@@ -1,3 +1,5 @@
+
+// -------------------------------------------FAQ---------------------------------------------------------------
 $(document).ready(function () {
     $('.demo').hide();
 
@@ -23,11 +25,22 @@ $(document).ready(function () {
         $(".cir4").toggleClass("fa-plus-circle fa-minus-circle");
         $('.demo3').toggle();
     });
+
+
+    // $(".toggle").hover(function () {
+    //     $(this).addClass(".popup");
+    // },function () {
+    //     $(this).removeClass(".popup");
+    // });
+
+
 });
+//--------------------------------------------------------------------------------------------------------------
+
 
 $(document).ready(function () {
     $('.toggle1').click(function () {
-        $('.popup1').toggle("slow");
+        $('.popup1').toggle('slow');
     });
     $('.toggle2').click(function () {
         $('.popup2').toggle("slow");
@@ -45,3 +58,5 @@ $(document).ready(function () {
         $('.popup6').toggle("slow");
     });
 }); 
+
+//------------------------------------States---------------------------------------------------------------
