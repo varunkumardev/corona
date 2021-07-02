@@ -1,4 +1,3 @@
-
 // -------------------------------------------FAQ---------------------------------------------------------------
 $(document).ready(function () {
     $('.demo').hide();
@@ -26,21 +25,13 @@ $(document).ready(function () {
         $('.demo3').toggle();
     });
 
-
-    // $(".toggle").hover(function () {
-    //     $(this).addClass(".popup");
-    // },function () {
-    //     $(this).removeClass(".popup");
-    // });
-
-
 });
 //--------------------------------------------------------------------------------------------------------------
 
 
 $(document).ready(function () {
     $('.toggle1').click(function () {
-        $('.popup1').toggle('slow');
+        $('.popup1').toggle("slow");
     });
     $('.toggle2').click(function () {
         $('.popup2').toggle("slow");
@@ -57,6 +48,76 @@ $(document).ready(function () {
     $('.toggle6').click(function () {
         $('.popup6').toggle("slow");
     });
-}); 
+    $('.toggle7').click(function () {
+        $('.popup7').toggle("slow");
+    });
+    $('.toggle8').click(function () {
+        $('.popup8').toggle("slow");
+    });
+    $('.toggle9').click(function () {
+        $('.popup9').toggle("slow");
+    });
+    $('.toggle10').click(function () {
+        $('.popup10').toggle("slow");
+    });
+    $('.toggle11').click(function () {
+        $('.popup11').toggle("slow");
+    });
+    $('.toggle12').click(function () {
+        $('.popup12').toggle("slow");
+    });
+    $('.toggle13').click(function () {
+        $('.popup13').toggle("slow");
+    });
+    $('.toggle14').click(function () {
+        $('.popup14').toggle("slow");
+    });
+    $('.toggle15').click(function () {
+        $('.popup15').toggle("slow");
+    });
+    $('.toggle16').click(function () {
+        $('.popup16').toggle("slow");
+    });
+    $('.toggle17').click(function () {
+        $('.popup17').toggle("slow");
+    });
+    $('.toggle18').click(function () {
+        $('.popup18').toggle("slow");
+    });
+    $('.toggle19').click(function () {
+        $('.popup19').toggle("slow");
+    });
+    $('.toggle20').click(function () {
+        $('.popup20').toggle("slow");
+    });
+    $('.toggle21').click(function () {
+        $('.popup21').toggle("slow");
+    });
+    $('.toggle22').click(function () {
+        $('.popup22').toggle("slow");
+    });
+    $('.toggle23').click(function () {
+        $('.popup23').toggle("slow");
+    });
+    $('.toggle24').click(function () {
+        $('.popup24').toggle("slow");
+    });
+    $('.toggle25').click(function () {
+        $('.popup25').toggle("slow");
+    });
+    $('.toggle26').click(function () {
+        $('.popup26').toggle("slow");
+    });
+    $('.toggle27').click(function () {
+        $('.popup27').toggle("slow");
+    });
+    $('.toggle28').click(function () {
+        $('.popup28').toggle("slow");
+    });
+    $('.toggle29').click(function () {
+        $('.popup29').toggle("slow");
+    });
+    
+});
 
 //------------------------------------States---------------------------------------------------------------
